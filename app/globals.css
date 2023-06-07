@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins',Helvetica;
+  color: #191919;
+  background-color: #FFFCF3;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #191919;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+  background-color: #FFFCF3;
+}
+
+.banner {
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+@media screen and (min-width: 640px){
+  .navBar {
+    padding: 2.5rem 3.5rem 2.5rem 3.5rem;
+  }
+
+  .banner {
+    padding: 2.5rem 3.5rem 2.5rem 3.5rem;
+  }
+}
+
+.nameLogoBox {
+  color: #DD5D32;
+  width: 12rem;
+}
+
+.handMotion {
+  display:inline-block;
+  animation: tilt 1s infinite normal;
+}
+
+@keyframes tilt {
+  50% {
+    transform: rotate(-20deg)
+  }
+}
+
+.bannerText {
+  letter-spacing: 0.05em;
+}
+
+.bannerText p {
+  padding: 0.1em 0 0.1em 0;
+}
+
+.linkedInHover:hover {
+  color: #FF6E6C;
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.marqueeContainer {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  background-color: #FFFCB8;
+  padding: 1rem 0 1rem 0;
+  border-top: solid 1px #191919;
+  border-bottom: solid 1px;
+}
+
+.marqueeText {
+  flex: 0 0 auto;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: scroll 30s linear infinite;
+}
+
+.marqueeText p {
+  font-weight: bold;
+  padding: 0 1rem 0 1rem;
+}
+
+.marqueeText a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.marqueeText a:hover {
+  text-decoration: underline;
+  color:#225AFF;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.spinMotion {
+  display: inline-block;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+.yearTag {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2rem;
+  left: 1rem;
+  width: 4.5rem;
+  height: 2rem;
+  background-color: #FF6E6C;
+  border-radius: 20px;
+}
+
+.devTag {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2rem;
+  left: 6rem;
+  width: 4rem;
+  height: 2rem;
+  background-color: #225AFF;
+  border-radius: 20px;
+}
+
+.devTag p {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.project-box img {
+  transition: 600ms;
+}
+
+.project-box img:hover {
+  box-shadow: 0.5rem 0.5rem;
+}
+
+.footerHome {
+  margin: 2rem 0 0 0;
+  padding: 2rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #225AFF;
+  border-top: solid 1px #191919;
+}
+
+.footerHome p {
+  display: inline-block;
+  animation: bounce 600ms alternate infinite;
+}
+
+.footerHome a {
+  text-decoration: underline;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.highlightText {
+  text-decoration: underline;
+}
+
+.highlightText:hover {
+  color: #FF6E6C;
+  font-weight: bold;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
+
+.exp {
+  background-color: #FF6E6C;
+  font-weight: bold;
+  font-size: 1.125rem;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem ;
+}
+
+@media screen and (min-width: 640px){
+  .exp {
+    font-size: 1.875rem;
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+  }
+}
+
+.thumbnailProject {
+  border: 1px solid #191919;
+}
+
+.thumbnailProject:hover {
+  box-shadow: 0.35rem 0.35rem #191919;
+  transition: 1s;
+}
+
+.textColor {
+  color: #595959;
+  font-size: 1rem;
+}
