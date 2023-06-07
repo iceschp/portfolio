@@ -9,7 +9,7 @@ export default function Info() {
                 <p className="text-xs sm:text-2xl font-medium">Passionate about using my design and programming skills <br />for to tackle real-world issues through the power of emerging technologies. <br/>And truly drives me to create innovative solutions <br />that can make a positive impact on <br/>for <span className="italic underline">everyone</span></p>
                 </div>
                 <div>
-                <Image src="/profile-image.jpg" width={300} height={300} className="border border-solid border-black"/>
+                <Image src="./profile-image.jpg" width={300} height={300} className="border border-solid border-black"/>
                 </div>
                 </div>
             </div>

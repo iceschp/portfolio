@@ -58,9 +58,9 @@ export default function Doctor() {
             </div>
 
             <div className="project-img sm:px-20">
-                <Image src="/doctor-1.png" alt="doctor-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/doctor-2.png" alt="doctor-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/doctor-3.png" alt="doctor-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./doctor-1.png" alt="doctor-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./doctor-2.png" alt="doctor-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./doctor-3.png" alt="doctor-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
             </div>
 
             <div className="py-4 sm:py-7 hover:underline">

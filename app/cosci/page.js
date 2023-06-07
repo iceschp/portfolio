@@ -60,9 +60,9 @@ export default function Cosci() {
             </div>
 
             <div className="project-img sm:px-20">
-                <Image src="/cosci-1.png" alt="cosci-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/cosci-2.png" alt="cosci-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/cosci-3.png" alt="cosci-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./cosci-1.png" alt="cosci-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./cosci-2.png" alt="cosci-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./cosci-3.png" alt="cosci-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
             </div>
 
             <div className="py-4 sm:py-7 hover:underline">

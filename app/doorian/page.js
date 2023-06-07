@@ -58,9 +58,9 @@ export default function Doorian() {
             </div>
 
             <div className="project-img sm:px-20">
-                <Image src="/doorian-1.png" alt="doorian-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/doorian-2.png" alt="doorian-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/doorian-3.png" alt="doorian-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./doorian-1.png" alt="doorian-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./doorian-2.png" alt="doorian-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./doorian-3.png" alt="doorian-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
             </div>
 
             <div className="py-4 sm:py-7 hover:underline">

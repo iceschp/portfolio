@@ -42,7 +42,7 @@ export default function Home() {
 <div className="yearTag">
 <p className="text-md sm:text-lg bold">2023</p>
 </div>
-<Image src="/inskru-thumbnail.png" alt="project-thumbnail" width="400" height="200" className="thumbnailProject"/>
+<Image src="./inskru-thumbnail.png" alt="project-thumbnail" width="400" height="200" className="thumbnailProject"/>
 <p className="font-bold text-lg py-4">Building impact of sharing culture 👩🏻‍🏫</p>
 <p className="text-sm sm:text-md">Building cultural awareness among Thai teachers</p>
 </div>
@@ -53,13 +53,13 @@ export default function Home() {
 <div className="yearTag">
 <p className="text-md sm:text-lg bold">2021</p>
 </div>
-<Image src="/doctor-thumbnail.png" alt="project-thumbnail" width="400" height="200" className="thumbnailProject"/>
+<Image src="./doctor-thumbnail.png" alt="project-thumbnail" width="400" height="200" className="thumbnailProject"/>
 <p className="font-bold text-lg py-4">Doctor Appointment Application 🏥</p>
 <p className="text-sm sm:text-md">Mobile High-fidelity prototype</p>
 </div>
 </Link>
 
-<Link href="/cosci">
+<Link href="./cosci">
 <div className="relative py-4">
 <div className="yearTag">
 <p className="text-md sm:text-lg bold">2020</p>
@@ -86,7 +86,7 @@ export default function Home() {
 <div className="yearTag">
 <p className="text-md sm:text-lg bold">2023</p>
 </div>
-<Image src="/doorian-thumbnail.png" alt="doorian-thumbnail" width="400" height="200" className="thumbnailProject"/>
+<Image src="./doorian-thumbnail.png" alt="doorian-thumbnail" width="400" height="200" className="thumbnailProject"/>
 <p className="font-bold text-lg py-4">Doorian - Detect Diseases (CoreML) 🍐</p>
 <p className="text-sm sm:text-md">Durian Disease Detection Application (Thesis project)</p>
 </div>
@@ -100,7 +100,7 @@ export default function Home() {
 <div className="yearTag">
 <p className="text-md sm:text-lg bold">2022</p>
 </div>
-<Image src="/fasting-thumbnail.png" alt="fasting-thumbnail" width="400" height="200" className="thumbnailProject"/>
+<Image src="./fasting-thumbnail.png" alt="fasting-thumbnail" width="400" height="200" className="thumbnailProject"/>
 <p className="font-bold text-lg py-4">Kin Num Gun Der (กินนำกันเด้อ) 🕑🏃🏼‍♀️🥘</p>
 <p className="text-sm sm:text-md">Thai meals plan and intermittent fasting timer!</p>
 </div>
@@ -114,7 +114,7 @@ export default function Home() {
 <div className="yearTag">
 <p className="text-md sm:text-lg bold">2021</p>
 </div>
-<Image src="/note-thumbnail.png" alt="note-thumbnail" width="400" height="200" className="thumbnailProject"/>
+<Image src="./note-thumbnail.png" alt="note-thumbnail" width="400" height="200" className="thumbnailProject"/>
 <p className="font-bold text-lg py-4">To-Do list - Easy to note 🖍️</p>
 <p className="text-sm sm:text-md">Make a quick short to-do list</p>
 </div>

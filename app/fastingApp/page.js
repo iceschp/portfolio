@@ -58,9 +58,9 @@ export default function FastingApp() {
             </div>
 
             <div className="project-img sm:px-20">
-                <Image src="/fasting-1.png" alt="fasting-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/fasting-2.png" alt="fasting-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/fasting-3.png" alt="fasting-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./fasting-1.png" alt="fasting-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./fasting-2.png" alt="fasting-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./fasting-3.png" alt="fasting-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
             </div>
 
             <div className="py-4 sm:py-7 hover:underline">

@@ -60,9 +60,9 @@ export default function Inskru() {
             </div>
 
             <div className="project-img sm:px-20">
-                <Image src="/inskru-1.png" alt="inskru-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/inskru-2.png" alt="inskru-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
-                <Image src="/inskru-3.png" alt="inskru-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./inskru-1.png" alt="inskru-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./inskru-2.png" alt="inskru-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
+                <Image src="./inskru-3.png" alt="inskru-project" width={600} height={200} className="py-4 sm:py-7 drop-shadow-md"/>
             </div>
 
             <div className="py-4 sm:py-7 hover:underline">
