@@ -59,7 +59,7 @@ export default function Home() {
 </div>
 </Link>
 
-<Link href="./cosci">
+<Link href="/cosci">
 <div className="relative py-4">
 <div className="yearTag">
 <p className="text-md sm:text-lg bold">2020</p>
