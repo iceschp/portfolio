@@ -66,7 +66,7 @@ export default function Inskru() {
             </div>
 
             <div className="py-4 sm:py-7 hover:underline">
-                <Link href="/">← Back</Link>
+                <Link href="https://iceschp.github.io/portfolio/">← Back</Link>
             </div>
 
         </div>
