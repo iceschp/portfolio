@@ -64,7 +64,7 @@ export default function Home() {
 <div className="yearTag">
 <p className="text-md sm:text-lg bold">2020</p>
 </div>
-<Image src="/cosci-thumbnail.png" alt="project-thumbnail" width="400" height="200" className="thumbnailProject"/>
+<Image src="./cosci-thumbnail.png" alt="project-thumbnail" width="400" height="200" className="thumbnailProject"/>
 <p className="font-bold text-lg py-4">Document Administration platform 🗂️</p>
 <p className="text-sm sm:text-md">High-fidelity prototype</p>
 </div>
