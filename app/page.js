@@ -19,12 +19,10 @@ export default function Home() {
 <div className="marqueeContainer">
 <div className="marqueeText">
 <p className="text-lg">CURRENTLY OPEN FOR HIRING IN BANGKOK AND RELOCATION 🌎</p>
-<p className="text-lg">★ UX/UI DESIGNER or SOFTWARE ENGINEER ROLE ★</p>
 <Link className="text-lg" href="https://www.linkedin.com/in/warunya-sangchompoo/" target="_blank" rel="noopener noreferrer">CONTACT ME VIA LINKEDIN !</Link>
 </div>
 <div className="marqueeText">
 <p className="text-lg">CURRENTLY OPEN FOR HIRING IN BANGKOK AND RELOCATION 🌎</p>
-<p className="text-lg">★ UX/UI DESIGNER or SOFTWARE ENGINEER ROLE ★</p>
 <Link className="text-lg" href="https://www.linkedin.com/in/warunya-sangchompoo/" target="_blank" rel="noopener noreferrer">CONTACT ME VIA LINKEDIN !</Link>
 </div>
 </div>
