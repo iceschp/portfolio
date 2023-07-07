@@ -51,7 +51,7 @@ export default function Doorian() {
 
                 <div className="project-solution pb-10 sm:pb-20">
                 <p className="font-bold text-lg sm:text-xl pb-2">Solution</p>
-                <p className="text-xs sm:text-base">During the research process, we discovered a brunch of durian groups community on Facebook that share knowledge about durian and ask help about their durian tree infection by taking photo of leaves. We took this opportunity to use machine learning (CoreML) to classified disease in durian detecting what disease is on durian tree and test on real-user (durian farmers). So we chose two diseases to build a demo application for identifying and testing.</p>
+                <p className="text-xs sm:text-base">During the research process, we discovered a brunch of insights among durian groups community on Facebook that share knowledge about durian and ask help about their durian tree infection by taking photo of leaves. We took this opportunity to use machine learning (CoreML) to classified disease in durian detecting what disease is on durian trees and test on real-user (durian farmers) with usability testing and A/B testing. So we decidede to choose two diseases to build a demo application for identifying and testing in beta version of application.</p>
                 </div>
 
             </div>
