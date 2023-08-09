@@ -9,9 +9,8 @@ export default function Home() {
 <div className="text-3xl sm:text-5xl">
 <p className="py-0.5">Hi <span className="handMotion">👋🏼</span></p>
 <Link href="https://www.linkedin.com/in/warunya-sangchompoo/" target="_blank" rel="noopener noreferrer">I'm <span className="linkedInHover">Warunya Sangchompoo</span>,</Link>
-<p className="py-0.5">As a Thailand-based UX/UI designer,</p>
-<p className="py-0.5">Developer,</p>
-<p className="py-0.5">and <span className="italic font-semibold underline">Recent Graduate</span>. 👩🏼‍🎓</p>
+<p className="py-0.5">As a Thailand-based UX/UI designer</p>
+<p className="py-0.5">and Developer</p>
 </div>
 </div>
 </div>
