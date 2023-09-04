@@ -37,7 +37,7 @@ export default function Home() {
 <Link href="/inskru">
 <div className="relative py-4">
 <div className="yearTag">
-<p className="text-md sm:text-lg bold">2023</p>
+<p className="text-md sm:text-lg bold">2022</p>
 </div>
 <Image src="./inskru-thumbnail.png" alt="project-thumbnail" width="400" height="200" className="thumbnailProject"/>
 <p className="font-bold text-lg py-4">Building impact of sharing culture 👩🏻‍🏫</p>
